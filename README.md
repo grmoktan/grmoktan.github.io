@@ -1,4 +1,4 @@
-# The site lives in S3 now
+### The site lives in S3 now
 
 Once again, I again changed my personal site :) . The previous one built using frozen flask approach was hosted on github pages. Now I migrated it to mkdocs based static setup and they are hosted on aws S3. 
 
