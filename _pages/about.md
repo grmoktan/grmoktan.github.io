@@ -7,9 +7,9 @@ subtitle: Under Construction. Migrating (once again) from mkdocs to Jekyll.
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: true # crops the image to make it circular
-  more_info: >
-    <p>Based in Helisnki</p>
+  image_circular: true 
+  # more_info: >
+  #  <p>Based in Helisnki</p>
     
 news: false  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
