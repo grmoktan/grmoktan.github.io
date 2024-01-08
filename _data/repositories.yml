@@ -1,12 +1,7 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - grmoktan
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - grmoktan/FLDTCP
+  - grmoktan/fastapi_docker_boilerplate
+  - grmoktan/dashapp-docker-boilerplate
