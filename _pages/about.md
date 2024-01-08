@@ -8,8 +8,8 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: true 
-  more_info: >
-    <p>Based in Helsinki.</p>
+  # more_info: >
+  #  <p>Based in Helsinki.</p>
   #  <p>Hailing from Nepal</p>
     
 news: false  # includes a list of news items
