@@ -7,13 +7,11 @@ tags: plotly python code
 categories: python-posts
 featured: true
 ---
-Turns out I don't need to worry about hosting plotly iteractive charts elsewhere. Plotly has apparently released many cool things into the open source side since the last time I used it. Basically, by only using ````plotly.express```` and ````plotly.io````, I could do the following to meet my need:
+Turns out I don't need to worry about hosting plotly iteractive charts elsewhere. Plotly has apparently released many cool things into the open source side since the last time I used it. Basically, by only using ````plotly.express```` and ````plotly.io````, following can meet the need:
 
-1. Export plotly-express charts to some html file (eg. test_plot.html using the snippet I picked from [Plotly Express Walkthrough](https://nbviewer.jupyter.org/github/plotly/plotly_express/blob/gh-pages/walkthrough.ipynb) ). This file holds the data loaded javascript (that operates the interactive chart at the client side) as well.
+First export plotly-express charts to some html file (eg. test_plot.html using the snippet I picked from [Plotly Express Walkthrough](https://nbviewer.jupyter.org/github/plotly/plotly_express/blob/gh-pages/walkthrough.ipynb) ). This file holds the data loaded javascript (that operates the interactive chart at the client side) as well.
 
-<!--
-
-```python
+````python  
 import plotly.express as px
 import plotly.io as pio
 
@@ -36,18 +34,14 @@ fig = px.scatter(gapminder,
                             gdpPercap="GDP per Capita", 
                             lifeExp="Life Expectancy")
                 )
-
 pio.write_html(fig, file='test_plot.html', auto_open=True)
-```
+````
 
-2. Create a template html file with it (eg. plotly_test.html) 
+Then you can either:
+* Grab everything between <body></body> tags and put it in your static html.
+* OR create a template html file with it and include it in a ```div``` where it needs to be shown.
 
-3. Grab everything between &lt;body&gt;&lt;/body&gt; tags and put it in your static html.
 
-You will see something like :
+You will see something like:
 
-<div class="row mt-3">
 {% include plotly-express-demo.html %}
-</div> 
-
--->
