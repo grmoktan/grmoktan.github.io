@@ -2,7 +2,7 @@
 layout: post
 title:  Interactive charts on a static page
 date: 2020-04-01 22:25:00
-description: Plotly is nice.
+description: Plotly is nice. (Ignore the read time! )
 tags: plotly python code
 categories: python-posts
 featured: true
