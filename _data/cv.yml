@@ -2,96 +2,122 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Gautam Raj Moktan
     - name: Date of Birth
-      value: 14th March 1879
+      value: 5th Aug 1985
     - name: Languages
-      value: English, German
+      value: English, Nepali, Hindi 
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: D.Sc. (Tech.)
+      institution: Aalto University, Finland
+      year: 2020
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - "Research Area: <i> Networking Technology.</i> "
+        - "Dissertation Title: <i>Resource Assignments in Network Data Transport.</i>"     
+    - title: M.Sc. (Tech.)
+      institution: Aalto University, Finland
+      year: 2011
       description:
-        - Description 1.
-        - Description 2.
+        - Degree Programme in Communications Engineering.
+        - Graduated with Distinction
+    - title: B.E.
+      institution: Kathmandu University, Nepal
+      year: 2007
+      description:
+        - Bachelor's in Electrical and Electronics Engineering.
+        - Specialization in Communications Engineering.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: System Architect, Cloud
+      institution: Nokia 
+      year: 2023 - 
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Leading the infra-services development for AI/ML, Data & Analytics in Nokia Engineering and Services Cloud (NESC).
+    - title: Cloud Platform Data Architect
+      institution: Nokia
+      year: 2020-2023
       description:
-        - Description 1.
-        - Description 2.
+        - Driving DataOps and MLOps in Nokia Engineering and Services Cloud (NESC), one of the largest private clouds in the world. As the ML & Analytics Lead, establishing MLOps awareness and engagement across various teams. 
+        - Responsible for providing advanced monitoring and reporting capabilities using predictive maintenance models. Applying Forecast and Anomaly detection at scale to support the monitoring of cloud infrastructure.
+        - Design and development of Analytics and ML processing platform to process and serve advanced metrics using Big Data, AI/ML tools and techniques. Using primarily open source tools and platforms such as Apache Spark, Mlflow, Airflow, Kubeflow, Clickhouse, Kafka, OpenSearch, Prometheus, Kubernetes, Openstack and the likes.
+        - Leading the development of GPU as-a-Service offering in the private cloud to support the AI/ML R&D efforts across the company.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+    - title: Senior Data Analyst
+      institution: Verto Analytics
+      year: 2018-2019
+      description:
+        - Developed data products and analytic frameworks for generating and monitoring behavioral insights in the digital ecosystem.
+        - Set up bespoke data pipelines to help clients get the best value out of online cross-device digital behavior measurement data.
+        - Managed client expectations and data delivery for custom research projects.
+        - Ensured quality across end-to-end delivery pipelines.
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Data Analyst
+      institution: Verto Analytics
+      year: 2017-2018
       description:
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Doctoral Researcher
+      institution: Aalto University 
+      year: 2011-2017
+      description:
+        - Conducted research in the various aspects of network data transport. Primary focus on TCP and Fairness of resource allocation.
+        - Developed an alternate congestion control mechanism, FLD_TCP, for network data transport, developed Speedifier framework for faster web page loads and analyzed datasets from Netradar (mobile network measurement platform) to understand mobile network traffic patterns and studied web resource patterns using data from Alexa top sites.
+        - Collaborated with researchers from academia and the industry in modern network communications and published results. Presented papers at international conferences and workshops.
+        - Worked as a teaching assistant and master’s thesis advisor.
+    - title: Research Assistant
+      institution: Aalto University 
+      year: 2009-2011
+      description:
+        - Assisting in Multipath transport research
+        - Conducting independent research in Internet Congestion Control
+    - title: After Sales Engineer
+      institution: ZTE, Nepal
+      year: 2008
+      description:
+        - Survey for Mobile Base Stations of 3.5M project of Nepal Telecom
+    - title: Network Engineer
+      institution: iDream Professionals Pvt. Ltd, Nepal
+      year: 2007-2008
+      description:
+        - Network Consultation and Support, Project Planning and Management
+        - Planning, Implementing, Configuring and Securing Data networks (Wireless, VPN, Ethernet) for various clients
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+
+#- title: Open Source Projects
+#  type: time_table
+#  contents:
+#    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+#      year: 2015-now
+#      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2013
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - Funded position from Aalto ELEC Doctoral School (Aug 2013- Jul 2016)
+    - year: 2012
       items: 
-        - Max Planck Medal
+        - HPY Research Foundation Grant
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+#- title: Academic Interests
+#  type: nested_list
+#  contents:
+#    - title: Data Transport .
+#      items: 
+#        - Description 1.
+#        - Description 2.
+#    - title: Topic 2.
+#      items:
+#        - Description 1.
+#        - Description 2.
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+#- title: Other Interests
+#  type: list
+#  contents:
+#    - <u>Hobbies:</u> Photography.

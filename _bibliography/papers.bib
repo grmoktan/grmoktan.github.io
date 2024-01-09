@@ -1,84 +1,127 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+
+
+@phdthesis{ec61d771c3e541be8c0ea3683245c756,
+title = "Resource Assignments in Network Data Transport",
+abstract = "Communication networks have come a long way since their invention and adoption in the modern society. They have fundamentally changed how society functions and the speed at which activities are conducted. Colossal amount of data is transported through today's networks to convey information between various end points. The Internet is the largest information and communication network shared by billions of end points as a common medium of data transfer today. The amount of data that can be transported through these networks within a given time period, also known as bandwidth, is the principal resource shared between the different end points. And, as is the case with many other finite resources available to modern society, scarcity of resources has led to the development of various schemes of resource distribution. The Transmission Control Protocol (TCP) is the dominant mechanism for transporting data between end points in the Internet. It provides various functionalities such as ensuring that the data is transported reliably between the end points and preventing the receiver and the network from being overwhelmed by too much data sent. TCP implements congestion control mechanisms so that multiple flows can share the network capacity. This thesis analyses the sharing of network resources in communication networks, using a customized TCP variant. Traditionally, TCP treats all flows as equal regardless of their end utility and attempts to provide equal share of the network bandwidth to each flow. This research analyses a scenario without that assumption. Specifically, short and long data transfers are considered unequal. As a manifestation of such concept, the research work developed a TCP congestion control variant which was able to provide different share of network capacity to different flow types. The performance of the protocol was then tested under multiple settings to investigate the notion further and evaluate the implications for deployment at large. Solutions to the resource assignment problem merit not just technical but also socio-economic analysis. The research explores the development of different resource assignment schemes in society at large and finds analogous schemes in communication networks. By comprehending the various notions of fairness prevalent in the society, several concerns to be addressed while developing resource assignment schemes are identified.",
+keywords = "resource assignment, network data transport, TCP, fairness, resource assignment, network data transport, TCP, fairness",
+author = "Moktan, {Gautam Raj}",
+year = "2020",
+language = "English",
+isbn = "978-952-60-3982-4",
+series = "Aalto University publication series DOCTORAL DISSERTATIONS",
+publisher = "Aalto University",
+number = "115",
+address = "Finland",
+school = "Aalto University",
+preview={wordcloud-pie.png},
+bibtex_show={true}
+
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+
+@article{1b990c4b61bb4f4793847acd3fa76be9,
+title = "Distributive justice in network communications",
+abstract = "Communication networks often have limited resources to serve all users and flows, and therefore different network resource assignment schemes have been deployed that satisfy fairness notions such as max-min fairness or proportional fairness. The justification of why one notion suits over other must be given due analysis in designing and administrating of communication networks. We explore the development of such fairness notions and resource assignment policies from philosophical and economics roots and how they translate into network communications and its layered protocol architecture. We find that resource assignment policies are not commutative, which impacts communications traffic and its bidirectional nature. We observe the effect of prioritisation in assigned resource amounts under different notions of the α-fairness spectrum and when the proportion of prioritised participants is varied. After an exploratory discourse, we formulate steps for designing and administrating resource allocation schemes for network communications that takes distributive justice into consideration.",
+keywords = "Distributive justice, Fairness, Networking, Prioritisation, Resource allocation, Socio-economics",
+author = "Moktan, {Gautam Raj} and Jukka Manner",
+year = "2019",
+month = jan,
+day = "1",
+doi = "10.1504/IJCNDS.2019.102987",
+language = "English",
+volume = "23",
+pages = "499--521",
+journal = "INTERNATIONAL JOURNAL OF COMMUNICATION NETWORKS AND DISTRIBUTED SYSTEMS",
+issn = "1754-3916",
+publisher = "Inderscience Publishers",
+number = "4",
+abbr={IJCNDS},
+bibtex_show={true}
+
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
+
+@article{34902cbbb0a64db5babb1c0e48d7c994,
+title = "Utilizing Connection Usage Characteristics for Faster Web Data Transport",
+abstract = "The quest for faster data transport to improve web user experience is ongoing and attempts are conducted from various fronts to realize it. On top of improving user experience, the implications of improving web data transport are also on the energy efficiency of wireless devices as well as user retention rates of service providers. HTTP/1.x allow the opening of multiple TCP connections per server and then using those connections for fetching multiple web objects through the use of HTTP pipelining. With the advent of HTTP/2.0, multiplexing is done inside a single connection to fetch multiple objects. In this paper, we analyze the TCP connections between the browser and the servers and examine their characteristics. We describe how an enhanced TCP variant can take advantage of data transport connection patterns. We show the benefits that enhanced TCP system can bring with the understanding of connection usage patterns. We find that such transport protocol can have effect in the page idle times as well as the connection concurrency during web page transfer. The results show significant improvement of page load times for both encryption heavy and unencrypted pages. We discuss the effect of the transport protocol on object transfer, connection duration, idle times during the page load, connections, and concurrency of flows that cumulate into page load times.",
+author = "Moktan, {Gautam Raj} and Nutti Varis and Jukka Manner",
+year = "2018",
+month = jan,
+day = "1",
+doi = "10.1155/2018/4520312",
+language = "English",
+volume = "2018",
+journal = "Journal of Computer Networks and Communications",
+issn = "2090-7141",
+publisher = "Hindawi Publishing Corporation",
+abbr={JCNC},
+bibtex_show={true}
+
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+
+
+@inproceedings{1670b73610a54e6fbf998be362fe8fdd,
+title = "Performance analysis of a short flow favoring TCP",
+author = "Moktan, {Gautam Raj} and Saurabh Pokhrel and Lennart Schulte and Mikko Sarela and Jukka Manner",
+year = "2014",
+language = "English",
+pages = "134--142",
+booktitle = "IEEE International conference on Computing, Communications and Informatics (ICACCI, 2014, Delhi. 24-27 September 2014",
+abbr={ICACCI},
+bibtex_show={true}
+
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+
+@inbook{9d3d49ff2c69488f9e9ba2631925ef58,
+title = "Internet, find me a job!",
+author = "Evgenia Litvinova and Vilen Looga and H{\aa}kan Mitts and Moktan, {Gautam Raj} and Olli M{\"a}kinen and Khan, {Suleiman Ali} and Meri Kuikka",
+year = "2012",
+language = "English",
+isbn = "978-952-60-3609-0",
+pages = "111--132",
+editor = "Yrj{\"o} Neuvo and Elina Karvonen",
+booktitle = "Bit bang IV : future of internet : societal, business, governance and technological aspects",
+publisher = "Aalto ARTS Books",
+address = "Finland",
+abbr={Book Chapter}
+
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+
+@inbook{a530dcfbbcc14947b228a3e1f05aed89,
+title = "Proliferation of the crowdsourcing phenomenon",
+author = "Raisa Halonen and Mohammad Hoque and Mokter Hossain and Moktan, {Gautam Raj} and Tuomas Ritola and Meri Kuikka",
+year = "2012",
+language = "English",
+isbn = "978-952-60-3609-0",
+pages = "94--110",
+editor = "Yrj{\"o} Neuvo and Elina Karvonen",
+booktitle = "Bit Bang IV: future of internet : societal, business, governance and technological aspects",
+publisher = "Aalto ARTS Books",
+address = "Finland",
+abbr={Book Chapter}
+
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+
+
+@inproceedings{5bc2b183943e4170975368b993689e67,
+title = "Favoring the short",
+author = "Moktan, {Gautam Raj} and Sebastian Siikavirta and Mikko S{\"a}rel{\"a} and Jukka Manner",
+year = "2012",
+language = "English",
+isbn = "978-1-4673-1017-8",
+pages = "31--36",
+booktitle = "Computer Communications Workshops (INFOCOM WKSHPS), the 15th Global Internet Symposium workshop Orlando Florida, March 30 2012.",
+abbr={INFOCOM GIS},
+bibtex_show={true}
+
 }
+
+
