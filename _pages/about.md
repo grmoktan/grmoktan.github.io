@@ -24,4 +24,4 @@ Obtained my doctorate in networking technology from [Aalto University](https://w
 
 Contracted a serious knack for data throughout my industry and academic research life. I find myself exploring, learning and developing continuously across a broad spectrum of technical, business and societal topics of communications networks, data and services. 
 
-I also dabble with some amateur photography hobby, 📸!
+I also dabble with some amateur photography as a hobby, 📸!
