@@ -3,8 +3,8 @@ layout: post
 title:  Fun with word clouds !
 date: 2020-04-04 22:25:00
 description: pip install wordcloud 
-tags: diagrams images wordcloud python code
-categories: python-posts
+tags:  wordcloud images python scraping
+categories: python code
 featured: true
 #thumbnail: assets/img/word_cloud_1.png
 ---

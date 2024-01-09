@@ -3,8 +3,8 @@ layout: post
 title:  Interactive charts on a static page
 date: 2020-04-01 22:25:00
 description: Plotly is nice. (Ignore the read time! )
-tags: plotly python code
-categories: python-posts
+tags: plotly python images
+categories: python code
 featured: true
 ---
 Turns out I don't need to worry about hosting plotly iteractive charts elsewhere. Plotly has apparently released many cool things into the open source side since the last time I used it. Basically, by only using ````plotly.express```` and ````plotly.io````, following can meet the need:
