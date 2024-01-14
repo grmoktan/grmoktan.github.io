@@ -5,7 +5,7 @@ date: 2024-01-14 22:25:00
 description: Like a photowalk but on the light rail :) 
 tags: photos images
 categories: photography
-featured: true
+featured: false
 ---
 
 Saying in nepali: "Najik ko devata helaa" 
