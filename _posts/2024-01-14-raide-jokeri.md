@@ -11,7 +11,18 @@ featured: false
 Saying in nepali: "Najik ko devata helaa" 
 
 
+Map:
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="https://raidejokeri.info/wp-content/uploads/2018/01/RJ_yleiskartta-1024x724.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+    </div>
+</div>
 
+<!--
 Canal at Ruoholahti:
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -24,17 +35,6 @@ Canal at Ruoholahti:
 </div>
 
 
-
-Map:
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="https://raidejokeri.info/wp-content/uploads/2018/01/RJ_yleiskartta-1024x724.png" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-    </div>
-</div>
 
 
 Keilaniemi metro station:
