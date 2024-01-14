@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Day out on the Helsinki Light Rail 15
-date: 2013-10-13 22:25:00
+date: 2024-01-14 22:25:00
 description: Like a photowalk but on the light rail :) 
 tags: photos images
 categories: photography
@@ -39,7 +39,7 @@ Keilaniemi metro station:
     <div class="col-sm mt-3 mt-md-0">
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/blog_gen/raide-jokeri/_1110043-border.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/blog_gen/raide_jokeri/_1110043-border.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
     </div>
@@ -50,7 +50,7 @@ Starting point of the light train:
     <div class="col-sm mt-3 mt-md-0">
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/blog_gen/raide-jokeri/_1110051-border.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/blog_gen/raide_jokeri/_1110051-border.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
     </div>
