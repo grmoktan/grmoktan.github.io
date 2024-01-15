@@ -39,7 +39,7 @@ Walking along the Canal at Ruoholahti after a nice burger lunch:
 </div>
 
 From there, I again hopped on the metro to head further west to Keilaniemi, the starting point of the Helsinki light rail 15. 
-Not much people at the (fairly newish) Keilaniemi metro station, so I tried to capture this cliche image:
+Not many people at the (fairly newish) Keilaniemi metro station, so I tried to capture this cliche image:
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
     </div>
