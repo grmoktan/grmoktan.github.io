@@ -19,7 +19,7 @@ It was a bright winter day, and the temperature had come to around cosy -5°C af
     <div class="col-sm mt-3 mt-md-0">
     </div>
     <div class="col-sm-7 mt-3 mt-md-0 justify-content-center">
-        {% include figure.html path="https://raidejokeri.info/wp-content/uploads/2018/01/RJ_yleiskartta-1024x724.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/blog_gen/raide_jokeri/kartta.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
     </div>
