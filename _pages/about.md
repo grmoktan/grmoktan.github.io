@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-Currently, I am responsible for the AI/ML infra-services, Data & Analytics topics in the Nokia Engineering and Services Cloud (NESC) team.
+Currently, I am responsible for the AI/ML infra-services, Data & Analytics topics in the Nokia Enterprise and Services Cloud (NESC) team.
 
 Obtained my doctorate in networking technology from [Aalto University](https://www.aalto.fi/en/department-of-communications-and-networking), Finland. My advisor was [Jukka Manner](https://research.aalto.fi/en/persons/jukka-manner) and I worked on resources sharing mechanisms w.r.t. network data transport.
 
