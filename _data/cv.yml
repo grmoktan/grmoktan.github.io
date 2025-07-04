@@ -37,14 +37,14 @@
       institution: Nokia 
       year: 2023 - 
       description:
-        - Leading the infra-services development for AI/ML, Data & Analytics in Nokia Engineering and Services Cloud (NESC).
+        - Leading the infra-services development for AI/ML, Data & Analytics in Nokia Enterprise and Services Cloud (NESC).
         - Leading the development of GPU as-a-Service offering in the private cloud to support the AI/ML R&D efforts across the company.
 
     - title: Cloud Platform Data Architect
       institution: Nokia
       year: 2020-2023
       description:
-        - Driving DataOps and MLOps in Nokia Engineering and Services Cloud (NESC), one of the largest private clouds in the world. As the ML & Analytics Lead, establishing MLOps awareness and engagement across various teams. 
+        - Driving DataOps and MLOps in Nokia Enterprise and Services Cloud (NESC), one of the largest private clouds in the world. As the ML & Analytics Lead, establishing MLOps awareness and engagement across various teams. 
         - Responsible for providing advanced monitoring and reporting capabilities using predictive maintenance models. Applying Forecast and Anomaly detection at scale to support the monitoring of cloud infrastructure.
         - Design and development of Analytics and ML processing platform to process and serve advanced metrics using Big Data, AI/ML tools and techniques. Using primarily open source tools and platforms such as Apache Spark, Mlflow, Airflow, Kubeflow, Clickhouse, Kafka, OpenSearch, Prometheus, Kubernetes, Openstack and the likes.     
 
